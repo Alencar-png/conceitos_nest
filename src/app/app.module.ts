@@ -5,7 +5,7 @@ import { ConceitosManualModule } from 'src/conceitos-manual/conceitos-manual.mod
 import { ConceitosAutomaticoModule } from 'src/conceitos-automatico/conceitos-automatico.module';
 
 @Module({
-  imports: [ConceitosManualModule,ConceitosAutomaticoModule],
+  imports: [ConceitosManualModule, ConceitosAutomaticoModule],
   controllers: [AppController],
   providers: [AppService],
 })
